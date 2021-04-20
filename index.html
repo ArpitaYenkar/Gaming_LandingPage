@@ -17,90 +17,188 @@
 </head>
 
 <body>
-    <section class="banner">
-        <div class="slider">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/pic7.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h1>GAMES</h1>
-                            <h2>Various of Game</h2>
-                            <p>
-                                Games are sometimes played purely for enjoyment, sometimes for achievement or reward as
-                                well. They can be played alone, in teams, or online; by amateurs or by professionals.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/pic6.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h1>PC SETUP</h1>
-                            <h2>Kingdom of Gamer</h2>
-                            <p>
-                                With PC gaming being so popular now, there are so many different designs out there and
-                                so many new and interesting ways that you can customize your own setup. </p>
-                        </div>
-                    </div>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="image/gamer2.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Sign In</a></li>
+                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">More</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Details</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" >Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
-                    <div class="carousel-item">
-                        <img src="images/pic8.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h1>GAMERS</h1>
-                            <h2> From young talents to top players</h2>
-                            <p>
-                                Millions of ambitious players follow their dream to compete on world class level in
-                                their respective game. </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/pic5.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h1>ESPORTS</h1>
-                            <h2>Competition </h2>
-                            <p>
-                                Esports is a form of competition using video games.Esports often takes the form of
-                                organized, multiplayer video game competitions, particularly between professional
-                                players, individually or as teams. </p>
-                        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/pic7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1>GAMES</h1>
+                        <h2>Various of Game</h2>
+                        <p>
+                            Games are sometimes played purely for enjoyment, sometimes for achievement or reward as
+                            well. They can be played alone, in teams, or online; by amateurs or by professionals.
+                        </p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item">
+                    <img src="images/pic6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1>PC SETUP</h1>
+                        <h2>Kingdom of Gamer</h2>
+                        <p>
+                            With PC gaming being so popular now, there are so many different designs out there and
+                            so many new and interesting ways that you can customize your own setup. </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/pic8.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1>GAMERS</h1>
+                        <h2> From young talents to top players</h2>
+                        <p>
+                            Millions of ambitious players follow their dream to compete on world class level in
+                            their respective game. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1>ESPORTS</h1>
+                        <h2>Competition </h2>
+                        <p>
+                            Esports is a form of competition using video games.Esports often takes the form of
+                            organized, multiplayer video game competitions, particularly between professional
+                            players, individually or as teams. </p>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 3"></button>
 
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/pic7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>GAMES</h5>
+                        <p>
+                            Games are sometimes played purely for enjoyment, sometimes for achievement or reward as
+                            well. They can be played alone, in teams, or online; by amateurs or by professionals.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>PC SETUP</h5>
+                        <p>
+                            With PC gaming being so popular now, there are so many different designs out there and
+                            so many new and interesting ways that you can customize your own setup. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic8.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>GAMERS</h5>
+                        <p> Millions of ambitious players follow their dream to compete on world class level in
+                            their respective game.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pic6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ESPORTS</h5>
+                        <p> Esports is a form of competition using video games.Esports often takes the form of
+                            organized, multiplayer video game competitions, particularly between professional
+                            players, individually or as teams.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="side-menu">
-            <img src="image/icon2.jpg"  class="menu-icon">
-            <img src="image/share.jpg" class="share-img">
 
-        </div>
-        <div class="top-bar">
-            <ul>
-                <li><img src="image/gamer2.png"></li>
-                <li><a href="#">Cart</a></li>
-                <li><a href="#">Sign Up</a></li>
-                <li><a href="#">Log In</a></li>
-            </ul>
-        </div>
-       
         <div class="social-icons">
             <ul>
-               <li><img src="image/facebook-brands.svg" class="fb"></li> 
-            <li><img src="image/twitter-square-brands.svg" class="twitter"></li>
-            <li><img src="image/instagram-square-brands.svg" class="insta"></li>
-            <li><img src="image/youtube-square-brands.svg" class="yout">
-            <img src="image/gamepad.svg" class="gamepad">
+                <li><img src="image/facebook-brands.svg" class="fb"></li>
+                <li><img src="image/twitter-square-brands.svg" class="twitter"></li>
+                <li><img src="image/instagram-square-brands.svg" class="insta"></li>
+                <li><img src="image/youtube-square-brands.svg" class="yout">
+                    <img src="image/gamepad.svg" class="gamepad">
             </ul>
-            
+
         </div>
     </section>
 </body>
