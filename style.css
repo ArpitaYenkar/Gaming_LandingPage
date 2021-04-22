@@ -4,33 +4,66 @@
 }
 body{
     font-family: sans-serif;
+    background-color: black;
+}
+main{
+    background-color: black;
+    padding-bottom: 20px;
+}
+footer{
+    background-color:rgb(48, 46, 46);
+    color: #fff;
 }
 
 .carousel-caption h1{
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .carousel-caption p{
-    margin-top: 30px;
+    margin-top: 20px;
 } 
 
-.social-icons{
-    top: 20%;
-    left: 3%;
-    position: absolute;
-    z-index: 2;
-} 
-.social-icons ul li{
-    
-    list-style: none;
-    font-size: 75px;
-}
-
-.social-icons ul li img{
-    
-    background-color:#9FA6A8;
-}
 .navbar-brand img{
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
+}
+.home{
+    background-color: black;
+}
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.main-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cart{
+    background-color: black;
+}
+.list-group-item{
+    font-weight:600;
+}
+
+.contact{
+    text-align: center;
+    background-color: black;
+}
+.contact-form{
+    display: inline-block;
+    
+}
+.cart{
+ margin-top: 50px;
+        margin-bottom: 50px; /* Added */
+    text-align: center;
+}
+
+.social-links img{  
+    height: 30px;
+    width: 30px;
 }
